@@ -1,6 +1,6 @@
 image:
   file: dockerfile  
-workspaceLocation: "~/"
+workspaceLocation: "."
 tasks:
   - init:  echo 'Welcome to DBT dev environment'    
 ports:
