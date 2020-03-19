@@ -5,7 +5,7 @@ USER root
 ENV DEBIAN_FRONTEND=noninteractive
 
 # install git iproute2
-RUN apt-get update && apt-get -y install git iproute2
+RUN apt-get update && apt-get -y install git iproute2 nano
 
 # https support
 RUN apt-get install apt-transport-https
