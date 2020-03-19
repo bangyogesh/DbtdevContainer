@@ -22,7 +22,7 @@ RUN apt-get -y install python3
 RUN apt-get -y install python3-pip 
 
 # Install DBT tool. Its from PyPi repo
-pip install dbt
+RUN pip install dbt
 
 # Clean up
 RUN apt-get autoremove -y \
