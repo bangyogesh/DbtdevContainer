@@ -1,8 +1,8 @@
 image:
   file: dockerfile  
-workspaceLocation: "."
+workspaceLocation: "~/"
 tasks:
-  - init:  echo 'Welcome to Angular dev environment'    
+  - init:  echo 'Welcome to DBT dev environment'    
 ports:
   - port: 8000
     onOpen: open-preview    
